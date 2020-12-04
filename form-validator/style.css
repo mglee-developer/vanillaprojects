@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.section {
+    width: 400px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    background-color: #fffde7;
+    -webkit-box-shadow: 7px 10px 5px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 7px 10px 5px 0px rgba(204,204,204,1);
+    box-shadow: 7px 10px 5px 0px rgba(204,204,204,1);
+}
+
+.section__title {
+    margin-bottom: 32px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.form-control.error input{
+    border: 2px solid red;
+}
+
+.form-control.success input{
+    border: 2px solid #00e676;
+}
+
+small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: red;
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.join_btn {
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    background-color: #ffab00;
+    border-radius: 5px;
+}
