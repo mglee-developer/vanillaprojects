@@ -4,4 +4,4 @@
 
 | **No.** | **Project** | **Demo** |
 |---|:---|---:|
-| <center>1</center> | [Form Validator](https://mglee-developer.github.io/vanillaprojects/form-validator/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/form-validator/) |
+| 1 | [Form Validator](https://mglee-developer.github.io/vanillaprojects/form-validator/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/form-validator/) |
