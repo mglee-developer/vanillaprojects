@@ -9,6 +9,7 @@
     --color-green: #00e575;
     --color-pink: #f50057;
     --color-yellow: #ffea00;
+    --color-red: #d50000;
 
     /* Fonts Size */
     --font-large: 24px;
@@ -117,6 +118,10 @@ p {
     border-radius: var(--border-radius);
     margin: 1px;
     padding: 2px;
+}
+
+.clicked {
+    background-color: var(--color-red);
 }
 
 .seat.economy-type {

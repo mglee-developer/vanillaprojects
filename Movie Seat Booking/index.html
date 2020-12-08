@@ -5,78 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
     <script src="https://kit.fontawesome.com/74ef570e6d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="movie-container">
-        <label for="movie-select">영화 선택</label>
-        <select name="movies" id="movie-select">
-            <option value="1">겨울왕국2</option>
-            <option value="2">어벤져스 엔드게임</option>
-            <option value="3">알라딘</option>
-            <option value="4">기생충</option>
-        </select>
+        <label for="movie-select">
+            <select name="movies" id="movie-select">
+                <option value="">원하는 영화를 선택하세요</option>
+                <option value="1">겨울왕국2</option>
+                <option value="2">어벤져스 엔드게임</option>
+                <option value="3">알라딘</option>
+                <option value="4">기생충</option>
+            </select>
+        </label>
     </div>
     <div class="seat-container">
         <div class="screen">screen</div>
-        <div class="seat__row">
-            <div class="seat economy-type">A1</div>
-            <div class="seat economy-type">A2</div>
-            <div class="seat economy-type">A3</div>
-            <div class="seat economy-type">A4</div>
-            <div class="seat">A5</div>
-            <div class="seat">A6</div>
-            <div class="seat">A7</div>
-            <div class="seat">A8</div>
-            <div class="seat">A9</div>
-            <div class="seat">A10</div>
-            <div class="seat">A11</div>
-            <div class="seat">A12</div>
-        </div>
-        <div class="seat__row">
-            <div class="seat">B1</div>
-            <div class="seat">B2</div>
-            <div class="seat">B3</div>
-            <div class="seat">B4</div>
-            <div class="seat">B5</div>
-            <div class="seat">B6</div>
-            <div class="seat">B7</div>
-            <div class="seat">B8</div>
-            <div class="seat">B9</div>
-            <div class="seat">B10</div>
-            <div class="seat">B11</div>
-            <div class="seat">B12</div>
-        </div>
-        <div class="seat__row">
-            <div class="seat">C1</div>
-            <div class="seat">C2</div>
-            <div class="seat">C3</div>
-            <div class="seat">C4</div>
-            <div class="seat">C5</div>
-            <div class="seat">C6</div>
-            <div class="seat">C7</div>
-            <div class="seat">C8</div>
-            <div class="seat">C9</div>
-            <div class="seat">C10</div>
-            <div class="seat">C11</div>
-            <div class="seat">C12</div>
-        </div>
-        <div class="seat__row">
-            <div class="seat disabled-type">D1</div>
-            <div class="seat disabled-type">D2</div>
-            <div class="seat">D3</div>
-            <div class="seat">D4</div>
-            <div class="seat sweet-type">D5</div>
-            <div class="seat sweet-type">D6</div>
-            <div class="seat sweet-type">D7</div>
-            <div class="seat sweet-type">D8</div>
-            <div class="seat">D9</div>
-            <div class="seat">D10</div>
-            <div class="seat disabled-type">D11</div>
-            <div class="seat disabled-type">D12</div>
-        </div>
     </div>
     <ul class="seat-type">
         <li class="disabled">🟩장애인석</li>
@@ -84,10 +31,10 @@
         <li class="economy">🟨Economy Zone</li>
     </ul>
     <div class="booking-container">
-        <p class="booking__title">겨울왕국2</p>
+        <p class="booking__title">예약할 영화를 선택하세요.</p>
         <div class="booking__information">
             <p class="booking__seat">
-                <span class="type"">일반</span>
+                <span class="type">선택한 좌석</span>
                 <span class="count">0</span>
             </p>
             <p class="booking__price">
