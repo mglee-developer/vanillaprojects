@@ -5,6 +5,7 @@
 - 개발기간 : 2020.12.04(1일)
 
 # Demo
+[DEMO](https://mglee-developer.github.io/vanillaprojects/form-validator/)
 ![form_validator](https://user-images.githubusercontent.com/70195171/101884422-00f78f00-3bdc-11eb-82ec-6cdd89e74304.JPG)
 
 # Technologies

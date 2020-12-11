@@ -5,3 +5,4 @@
 | **No.** | **Project** | **Demo** |
 |---|:---|---:|
 | 1 | [Form Validator](https://mglee-developer.github.io/vanillaprojects/form-validator/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/form-validator/) |
+| 2 | [Movie Seat Booking](https://mglee-developer.github.io/vanillaprojects/movie-seat-booking/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/movie-seat-booking/) |
