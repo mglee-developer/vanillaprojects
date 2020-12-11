@@ -6,6 +6,8 @@
 
 # Demo
 [DEMO](https://mglee-developer.github.io/vanillaprojects/movie-seat-booking/)
+
+
 ![movie_booking](https://user-images.githubusercontent.com/70195171/101882377-28009180-3bd9-11eb-896c-0b5d87501680.JPG)
 
 # Technologies
