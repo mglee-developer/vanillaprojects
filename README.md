@@ -9,3 +9,4 @@
 |---|:---|---:|
 | 1 | [Form Validator](https://mglee-developer.github.io/vanillaprojects/form-validator/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/form-validator/) |
 | 2 | [Movie Seat Booking](https://mglee-developer.github.io/vanillaprojects/movie-seat-booking/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/movie-seat-booking/) |
+| 3 | [Custom Video Player](https://mglee-developer.github.io/vanillaprojects/custom-video-player/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/custom-video-player/) |
