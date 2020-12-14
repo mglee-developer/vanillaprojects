@@ -6,21 +6,21 @@
     <title>Cusotm Video Player</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/74ef570e6d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="section">
-        <h1 class="section__title">Custom Video Player</h1>
-        <video src="video/flower.webm" class="section__video" poster="imgs/poster.png"></video>
-        <div class="section__cotrols">
-            <button class="play_btn">
-                <i class="fas fa-play"></i>
-            </button>
-            <button class="stop_btn">
-                <i class="fas fa-stop"></i>
-            </button>
-            <input type="range">
-            <span class="timestamp">00:00</span>
-        </div>
-    </section>
+    <h1 class="section__title">Custom Video Player</h1>
+    <video src="video/flower.webm" class="section__video" poster="imgs/poster.png"></video>
+    <div class="section__controls">
+        <button class="play_btn">
+            <i class="fas fa-play"></i>
+        </button>
+        <button class="stop_btn">
+            <i class="fas fa-stop"></i>
+        </button>
+        <input type="range" min="0" max="100" id="progress" step="0.1" value="0">
+        <span class="timestamp">00:00</span>
+    </div>
 </body>
 </html>
