@@ -87,14 +87,14 @@ img {
 }
 
 .currency-container {
-    padding: 8px;
+    padding: 10px;
     background-color: var(--color-white);
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
 }
 
-#currency,
+.currency-select
 .currency-input {
     font-size: var(--font-regular);
     font-weight: var(--weight-bold);

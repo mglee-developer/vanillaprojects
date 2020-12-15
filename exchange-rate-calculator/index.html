@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exchange Rate Calculator</title>
-    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/74ef570e6d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <section class="section">
@@ -18,8 +19,7 @@
         </div>
         <div class="calculator">
             <div class="currency-container">
-                <select name="currency" id="currency">
-                    <option value="USD">USD</option>
+                <select name="currency" id="currency-one" class="currency-select">
                 </select>
                 <input type="number" class="currency-input" value="1">
             </div>
@@ -30,8 +30,7 @@
                 <p class="standard">1USD = 0.823499 EUR</p>
             </div>
             <div class="currency-container">
-                <select name="currency" id="currency">
-                    <option value="KRW">KRW</option>
+                <select name="currency" id="currency-two" class="currency-select">
                 </select>
                 <input type="number" class="currency-input" value="1">
             </div>
