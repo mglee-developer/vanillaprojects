@@ -23,8 +23,8 @@ function updateProgress() {
 function stopVideo() {
     video.currentTime = 0;
     video.pause();
-    console.log(video.paused);
-    updatePlayIcon(video.paused);
+    // console.log(video.paused);
+    // updatePlayIcon(video.paused);
 }
 
 function updatePlayIcon() {
