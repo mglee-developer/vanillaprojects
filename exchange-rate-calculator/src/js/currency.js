@@ -6,7 +6,7 @@ const currencyTwo = document.querySelector('#currency-two');
 const currencyInputTwo = document.querySelector('#currency-input-two');
 
 function getCurrencyCode() {
-    fetch('https://mglee-developer.herokuapp.com/api')
+    fetch('http://localhost:5500/api')
         .then(res => res.json())
         .then(data => {
             // console.log(data);
