@@ -4,10 +4,22 @@
 - open API를 활용하여 국제 통화 환율을 계산하는 프로그램
 - 개발기간: 2020.12.15 - 2020.12.18(4일)
 
+# Usage
+```
+    npm install
+    npm install express
+    npm install axios
+    npm install body-parser
+    npm install nodemon -g
+```
+
+```
+    nodemon server.js
+
+    # Visit http://localhost:5500
+```
+
 # DEMO
-[DEMO]('https://mglee-developer.herokuapp.com/')
-
-
 
 # Technologies
 - HTML
