@@ -10,3 +10,4 @@
 | 1 | [Form Validator](https://mglee-developer.github.io/vanillaprojects/form-validator/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/form-validator/) |
 | 2 | [Movie Seat Booking](https://mglee-developer.github.io/vanillaprojects/movie-seat-booking/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/movie-seat-booking/) |
 | 3 | [Custom Video Player](https://mglee-developer.github.io/vanillaprojects/custom-video-player/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/custom-video-player/) |
+| 4 | [Exchange Rate Calculator](https://github.com/mglee-developer/vanillaprojects/tree/main/exchange-rate-calculator) | [DEMO(heroku)](https://github.com/mglee-developer/heroku-exchange-rate-calculator) |
