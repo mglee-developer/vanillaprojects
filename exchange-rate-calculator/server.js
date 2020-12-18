@@ -14,7 +14,6 @@ app.use('/api', (req, res) => {
     const url = `https://www.koreaexim.go.kr/site/program/financial/exchangeJSON?authkey=${API_KEY}&data=${TYPE}`;
     axios.get(url)
     .then((response) => {
-        // console.log(response.data);
         res.send(response.data);
     })
     .catch(error => console.log(error));
@@ -25,9 +24,7 @@ app.use(bodyParser.json());
 
 app.post('/send', (req, res) => {
     const query = req.body.currency_one;
-    // console.log(req.body.boxOption);
     const url = `https://v6.exchangerate-api.com/v6/a4eae5b56a5ae8efdb454530/latest/${query}`;
-    // console.log(url); 
     axios.get(url)
         .then((response) => {
             res.send(response.data);
