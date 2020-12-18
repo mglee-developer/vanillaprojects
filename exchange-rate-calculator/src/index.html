@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
+    <script src="js/currency.js" defer></script>
+    <script src="js/calculate.js" defer></script>
 </head>
 <body>
     <section class="section">
         <div class="logo">
-            <img src="imgs/logo.png" alt="logo">
+            <img src="./imgs/logo.png" alt="logo">
             <h1 class="logo__title">환율계산기</h1>
             <p class="logo__description">환율을 얻기 위한 통화와 금액을 입력하세요</p>
         </div>
@@ -27,7 +28,7 @@
                 <button class="swap_btn">
                     <i class="fas fa-exchange-alt"></i>
                 </button>
-                <p class="standard">1USD = 0.823499 EUR</p>
+                <p class="standard"></p>
             </div>
             <div class="currency-container">
                 <select name="currency" id="currency-two" class="currency-select">
