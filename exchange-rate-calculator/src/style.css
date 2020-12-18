@@ -1,0 +1,125 @@
+:root {
+    /* color */
+    --color-black: #000000;
+    --color-dark-gray: #9e9e9e;
+    --color-gray: #eeeeee;
+    --color-white: #ffffff;
+    --color-teal: #26a69a;
+
+    /* font type */
+    --font-gugi: 'Gugi', cursive;
+    --font-nanum: 'Nanum Gothic Coding', monospace;
+
+    /* font size */
+    --font-large: 36px;
+    --font-medium: 24px;
+    --font-regular: 18px;
+    --font-small: 14px;
+
+    /* font weight */
+    --weight-bold: 700;
+    --weight-regular: 400;
+}
+
+/* Universal tags */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    cursor: default;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: var(--color-black);
+    font-family: var(--font-nanum);
+    background-color: var(--color-teal);
+}
+
+h1 {
+    margin: 8px 0;
+}
+
+p {
+    margin: 8px 0;
+}
+
+input,
+button,
+select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* Contents */
+.section {
+    background-color: var(--color-gray);
+    padding: 80px;
+}
+
+.logo {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.logo__title {
+    color: var(--color-teal);
+    font-family: var(--font-gugi);
+    font-size: var(--font-large);
+}
+
+.logo__description {
+    color: var(--color-dark-gray);
+    font-family: var(--font-nanum);
+    font-size: var(--font-small);
+    font-weight: var(--weight-bold);
+}
+
+.calculator {
+    margin-top: 40px;
+}
+
+.currency-container {
+    padding: 10px;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currency-select
+.currency-input {
+    font-size: var(--font-regular);
+    font-weight: var(--weight-bold);
+}
+
+.currency-input {
+    text-align: right;
+}
+
+.swap-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+
+.swap_btn {
+    cursor: pointer;
+}
+
+.swap_btn i {
+    font-size: var(--font-medium);
+    transform: rotate(90deg);
+}
+
+.standard {
+    color: var(--color-teal);
+    font-weight: var(--weight-bold);
+}

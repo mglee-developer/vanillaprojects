@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate Calculator</title>
+    <script src="https://kit.fontawesome.com/74ef570e6d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/currency.js" defer></script>
+    <script src="js/calculate.js" defer></script>
+</head>
+<body>
+    <section class="section">
+        <div class="logo">
+            <img src="./imgs/logo.png" alt="logo">
+            <h1 class="logo__title">환율계산기</h1>
+            <p class="logo__description">환율을 얻기 위한 통화와 금액을 입력하세요</p>
+        </div>
+        <div class="calculator">
+            <div class="currency-container">
+                <select name="currency" id="currency-one" class="currency-select">
+                </select>
+                <input type="number" id="currency-input-one" class="currency-input" value="1">
+            </div>
+            <div class="swap-container">
+                <button class="swap_btn">
+                    <i class="fas fa-exchange-alt"></i>
+                </button>
+                <p class="standard"></p>
+            </div>
+            <div class="currency-container">
+                <select name="currency" id="currency-two" class="currency-select">
+                </select>
+                <input type="number" id="currency-input-two" class="currency-input" value="1">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
