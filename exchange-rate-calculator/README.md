@@ -20,6 +20,7 @@
 ```
 
 # DEMO
+![Exchange Rate Calculator](https://user-images.githubusercontent.com/70195171/102623399-c6ff2d80-4185-11eb-9764-52f1312b07e5.gif)
 
 # Technologies
 - HTML
