@@ -1,0 +1,143 @@
+:root {
+    /* Color */
+    --color-black: #000000;
+    --color-light-gray: #EAEBEB;
+    --color-light-blue: #EBF4FA;
+    --color-dark-green: #164249;
+
+    /* Font Size */
+    --font-large: 42px;
+    --font-medium: 28px;
+    --font-regular: 18px;
+    --font-small: 16px;
+
+    /* Font Weight */
+    --weight-bold: 700;
+    --weight-semi-bold: 600;
+    --weight-regular: 400;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    margin: 8px 0;
+}
+
+h2 {
+    margin: 8px 0;
+}
+
+p {
+    margin: 16px 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-dark-green);
+    font-size: var(--font-regular);
+    font-weight: var(--weight-semi-bold);
+}
+
+button {
+    cursor: default;
+    outline: none;
+    border: none;
+}
+
+/* Header */
+
+.header {
+    position: relative;
+    text-align: center;
+    color: var(--color-dark-green);
+    background-color: var(--color-light-blue);
+    padding: 40px 15px;
+}
+
+.toggle_btn {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: var(--color-dark-green);
+}
+
+.toggle_btn .fas {
+    color: var(--color-light-blue);
+    font-size: var(--font-medium);
+    font-weight: var(--weight-bold);
+}
+
+.header__title {
+    font-size: var(--font-large);
+}
+
+.header__description {
+    font-size: var(--font-regular);
+}
+
+.sign_btn {
+    cursor: pointer;
+    margin-top: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: var(--color-light-blue);
+    font-size: var(--font-medium);
+    font-weight: var(--weight-semi-bold);
+    background-color: var(--color-dark-green);
+}
+
+/* Navbar */
+.navbar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 200px;
+    height: 100vh;
+    background-color: var(--color-light-blue);
+    border-right: 2px solid var(--color-dark-green);
+}
+
+.logo {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid var(--color-dark-green);
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border: 3px solid var(--color-dark-green);
+    border-radius: 50%;
+}
+
+.menu {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.menu-list {
+    padding: 16px;
+    border-bottom: 2px solid var(--color-dark-green);
+}
+
+/* Section */
+.section {
+    max-width: 100%;
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
