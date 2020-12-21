@@ -7,8 +7,8 @@
 # Projects
 | **No.** | **Project** | **Demo** |
 |---|:---|---:|
-| 1 | [Form Validator](https://mglee-developer.github.io/vanillaprojects/form-validator/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/form-validator/) |
-| 2 | [Movie Seat Booking](https://mglee-developer.github.io/vanillaprojects/movie-seat-booking/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/movie-seat-booking/) |
-| 3 | [Custom Video Player](https://mglee-developer.github.io/vanillaprojects/custom-video-player/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/custom-video-player/) |
+| 1 | [Form Validator](https://github.com/mglee-developer/vanillaprojects/tree/main/form-validator) | [DEMO](https://mglee-developer.github.io/vanillaprojects/form-validator/) |
+| 2 | [Movie Seat Booking](https://github.com/mglee-developer/vanillaprojects/tree/main/movie-seat-booking) | [DEMO](https://mglee-developer.github.io/vanillaprojects/movie-seat-booking/) |
+| 3 | [Custom Video Player](https://github.com/mglee-developer/vanillaprojects/tree/main/custom-video-player) | [DEMO](https://mglee-developer.github.io/vanillaprojects/custom-video-player/) |
 | 4 | [Exchange Rate Calculator](https://github.com/mglee-developer/vanillaprojects/tree/main/exchange-rate-calculator) | [DEMO(heroku)](https://mglee-developer.herokuapp.com/) |
-| 5 | [DOM Array Methods](https://mglee-developer.github.io/vanillaprojects/dom-array-methods/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/dom-array-methods/)
+| 5 | [DOM Array Methods](https://github.com/mglee-developer/vanillaprojects/tree/main/dom-array-methods) | [DEMO](https://mglee-developer.github.io/vanillaprojects/dom-array-methods/)
