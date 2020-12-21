@@ -52,6 +52,10 @@ button {
     font-weight: var(--weight-semi-bold);
 }
 
+button:hover {
+    background-color: #ffecb3;
+}
+
 /* Main */
 .wrapper {
     display: flex;  
