@@ -63,3 +63,6 @@ user.sort((a, b) => b.wealth - a.wealth);
     - 현재값(cur) : 처리할 현재 요소
     - 현재 인덱스(idx) : 처리할 현재 요소의 인덱스(initialValue 제공하면 0, 아니면 1)
     - 원본 배열(src) : reduce 함수를 호출할 배열
+
+# 참고
+[Mozilla MDN](https://developer.mozilla.org/ko/)
