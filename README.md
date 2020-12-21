@@ -11,4 +11,4 @@
 | 2 | [Movie Seat Booking](https://mglee-developer.github.io/vanillaprojects/movie-seat-booking/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/movie-seat-booking/) |
 | 3 | [Custom Video Player](https://mglee-developer.github.io/vanillaprojects/custom-video-player/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/custom-video-player/) |
 | 4 | [Exchange Rate Calculator](https://github.com/mglee-developer/vanillaprojects/tree/main/exchange-rate-calculator) | [DEMO(heroku)](https://mglee-developer.herokuapp.com/) |
-| 5 | [DOM Array Methods](https://mglee-developer.github.io/vanillaprojects/dom-array-methods/) | [DEMO(https://mglee-developer.github.io/vanillaprojects/dom-array-methods/)]
+| 5 | [DOM Array Methods](https://mglee-developer.github.io/vanillaprojects/dom-array-methods/) | [DEMO](https://mglee-developer.github.io/vanillaprojects/dom-array-methods/)
