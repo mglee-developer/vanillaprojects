@@ -1,6 +1,7 @@
 :root {
     /* Color */
     --color-black: #000000;
+    --color-white: #ffffff;
     --color-light-gray: #EAEBEB;
     --color-light-blue: #EBF4FA;
     --color-dark-green: #164249;
@@ -150,4 +151,83 @@ button {
     width: 800px;
     margin: auto;
     margin-top: 30px;
+    padding: 15px;
+}
+
+/* Modal */
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.modal-container.hidden {
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    width: 400px;
+    background-color: var(--color-white);
+    border-radius: 5px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: var(--color-light-blue);
+    color: var(--color-dark-green);
+    padding: 10px 20px;
+}
+
+.close_btn {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.close_btn .fas {
+    color: var(--color-dark-green);
+    font-size: var(--font-medium);
+}
+
+.modal-content {
+    padding: 20px 10px;
+
+}
+
+.modal__description {
+    font-size: var(--font-small);
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.form-column label {
+    font-size: var(--font-small);
+}
+
+.form-column input {
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.submit_btn {
+    padding: 8px 12px;
+    color: var(--color-light-blue);
+    font-size: var(--font-small);
+    border-radius: 5px;
+    background-color: var(--color-dark-green);
 }

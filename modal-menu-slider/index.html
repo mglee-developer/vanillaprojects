@@ -64,5 +64,40 @@
             culpa quaerat consequatur?
         </p>
     </section>
+
+    <!-- Modal -->
+    <div class="modal-container hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal">
+            <div class="modal-header">
+                <h2 class="modal__title">Sign Up</h2>
+                <button class="close_btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-content">
+                <p class="modal__description">Register with us to get offers, support and more</p>
+                <form class="modal-form">
+                    <div class="form-column">
+                        <label for="name">Name</label>
+                        <input type="text" class="name" id="name" placeholder="Enter Name">
+                    </div>
+                    <div class="form-column">
+                        <label for="email">Email</label>
+                        <input type="text" class="email" id="email" placeholder="Enter Email">
+                    </div>
+                    <div class="form-column">
+                        <label for="password">Password</label>
+                        <input type="text" class="password" id="password" placeholder="Enter Password">
+                    </div>
+                    <div class="form-column">
+                        <label for="password">Confirm Password</label>
+                        <input type="text" class="password" id="password" placeholder="Confirm Password">
+                    </div>
+                    <button class="submit_btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
