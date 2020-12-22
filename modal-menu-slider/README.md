@@ -7,6 +7,9 @@
 # DEMO
 [DEMO](https://mglee-developer.github.io/vanillaprojects/modal-menu-slider/)
 
+
+![My Landing Page](https://user-images.githubusercontent.com/70195171/102868951-3e7ed680-447e-11eb-8740-39a09088e015.gif)
+
 # Technologies
 - HTML
 - CSS
