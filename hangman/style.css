@@ -1,0 +1,148 @@
+:root {
+    /* Color */
+    --color-white: #ffffff;
+    --color-dark-blue: #002f6c;
+    --color-light-blue: #4f83cc;
+    --color-red: #b71c1c;
+
+    /* Font Size */
+    --font-large: 32px;
+    --font-medium: 24px;
+    --font-regular: 18px;
+    --font-small: 16px;
+
+    /* Font Weight */
+    --weight-bold: 700;
+    --weight-semi-bold: 600;
+    --weight-regular: 400;
+
+    /* Border Radius */
+    --border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    margin-top: 40px;
+    text-align: center;
+    color: var(--color-white);
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--color-dark-blue);
+}
+
+h1 {
+    margin: 8px 0;
+    font-size: var(--font-large);
+    font-weight: var(--weight-bold);
+}
+
+h2 {
+    margin: 8px 0;
+    font-size: var(--font-medium);
+    font-weight: var(--weight-semi-bold);
+}
+
+p {
+    margin: 8px 0;
+    font-size: var(--font-regular);
+}
+
+ul {
+    list-style: none;
+    margin: 8px 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: default;
+    outline: none;
+    border: none;
+    padding: 8px 12px;
+}
+
+/* Section */
+
+.container {
+    max-width: 100%;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Buttons */
+.letters {
+    display: flex;
+}
+
+.alphabet {
+    cursor: pointer;
+    border: 1px solid var(--color-white);
+    border-radius: var(--border-radius);
+    margin: 0 8px;
+    padding: 4px 12px;
+}
+
+/* Clue */
+.clue {
+    color: var(--color-red);
+    font-size: var(--font-medium);
+    font-weight: var(--weight-semi-bold);
+}
+
+/* Words */
+.words {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.word {
+    font-size: var(--font-regular);
+    font-weight: var(--weight-semi-bold);
+    margin: 0 8px;
+    width: 25px;
+    border-bottom: 1px solid var(--color-white);
+}
+
+#hangman {
+    width: 250px;
+    height: 250px;
+    border: 2px dashed var(--color-white);
+    stroke: var(--color-white);
+    stroke-width: 2px;
+}
+
+#hangman * {
+    display: none;
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+.clue_btn, .again_btn {
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--color-white);
+    font-size: var(--font-regular);
+    border: 1px solid var(--color-white);
+    border-radius: var(--border-radius);
+}
+
+.clue_btn {
+    margin-right: 10px;
+}
+
+.popup-container {
+    display: none;
+    max-width: 100%;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 16px;
+    background-color: var(--color-light-blue);
+    border-radius: var(--border-radius);
+}

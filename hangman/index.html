@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Hangman</h1>
+    <p>Find the hidden word - Use the alphabet below to guess the word</p>
+    <section class="container">
+        <div class="buttons">
+            <ul class="letters">
+                <li class="alphabet">a</li>
+                <li class="alphabet">b</li>
+                <li class="alphabet">c</li>
+                <li class="alphabet">d</li>
+            </ul>
+        </div>
+        <h2 class="category-name">Category - Fruites</h2>
+        <p class="clue">Clue</p>
+        <div class="answer">
+            <ul class="words">
+                <li class="word">A</li>
+                <li class="word">P</li>
+                <li class="word">P</li>
+                <li class="word">L</li>
+                <li class="word">E</li>
+            </ul>
+        </div>
+        <svg id="hangman">
+            <!-- rod -->
+            <line x1="150" x2="150" y1="30" y2="60" />
+            <line x1="60" x2="150" y1="30" y2="30" />
+            <line x1="60" x2="60" y1="30" y2="230" />
+            <line x1="20" x2="100" y1="230" y2="230" />
+
+            <!-- head -->
+            <circle cx="150" cy="80" r="20" fill="transparent" />
+
+            <!-- body -->
+            <line x1="150" x2="150" y1="150" y2="100" />
+
+            <!-- arms -->
+            <line x1="150" x2="100" y1="100" y2="120" />
+            <line x1="150" x2="200" y1="100" y2="120" />
+
+            <!-- legs -->
+            <line x1="150" x2="110" y1="150" y2="170" />
+            <line x1="150" x2="190" y1="150" y2="170" />
+        </svg>
+        <div class="btn-container">
+            <button class="clue_btn">Hint</button>
+            <button class="again_btn">Play Again</button>
+        </div>
+    </section>
+
+    <!-- Final Message -->
+    <div class="popup-container">
+        <div class="popup">
+            <h2 class="final-message">You Win☺</h2>
+            <button class="again_btn">Play Again</button>
+        </div>
+    </div>
+</body>
+</html>

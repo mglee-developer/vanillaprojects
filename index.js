@@ -1,0 +1,1 @@
+const { SearchIndexClient, SearchClient, AzureKeyCredential, odata } = require("@azure/search-documents");
