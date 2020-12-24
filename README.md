@@ -13,3 +13,4 @@
 | 4 | [Exchange Rate Calculator](https://github.com/mglee-developer/vanillaprojects/tree/main/exchange-rate-calculator) | [DEMO(heroku)](https://mglee-developer.herokuapp.com/) |
 | 5 | [DOM Array Methods](https://github.com/mglee-developer/vanillaprojects/tree/main/dom-array-methods) | [DEMO](https://mglee-developer.github.io/vanillaprojects/dom-array-methods/)
 | 6 | [Modal Menu Slider](https://github.com/mglee-developer/vanillaprojects/tree/main/modal-menu-slider) | [DEMO](https://mglee-developer.github.io/vanillaprojects/modal-menu-slider/) |
+| 7 | | [Hangman](https://github.com/mglee-developer/vanillaprojects/tree/main/hangman) | [DEMO](https://mglee-developer.github.io/vanillaprojects/hangman/) |
