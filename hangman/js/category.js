@@ -1,36 +1,23 @@
-const category = ['FRUIT', 'ANIMAL', 'CITY'];
-const quiz = [['apple', 'banana', 'grape'],
-                ['dog', 'monky', 'rabbit'],
-                ['seoul', 'busan', 'jeju']];
-
-let storedWord = [];                
-
 const categoryName = document.querySelector('.category-name');
-const words = document.querySelector('.words');
 
-function randomCategory() {
-    const index = Math.floor(Math.random()*category.length);
-    categoryName.innerHTML = `Category - ${category[index]}`;
-
-    return index;
+function paintCategory() {
+    if(randomCategory === categories[0]) {
+        categoryName.innerHTML = 'Category - FRUIT';
+    }else if(randomCategory === categories[1]) {
+        categoryName.innerHTML = 'Category - ANIMAL';
+    }else {
+        categoryName.innerHTML = 'Category - CITY';
+    }
 }
 
-function randomWord() {
-    const returnIndex = randomCategory();
-    const quizIndex = Math.floor(Math.random() * quiz.length);
-    const word = quiz[returnIndex][quizIndex]; 
-    
+const words = document.querySelector('.words');
+
+function paintWord() {
     for(let i = 0; i < word.length; i++) {
-        const element = document.createElement('li');
-        element.setAttribute('class', 'word');
-        words.appendChild(element);
+        const li = document.createElement('li');
+        li.setAttribute('class', 'word');
+        words.appendChild(li);
 
         storedWord.push(word[i]);
     }
 }
-
-function init() {
-    randomWord();
-}
-
-init();

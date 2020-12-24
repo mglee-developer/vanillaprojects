@@ -5,10 +5,10 @@ const alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
 const letters = document.querySelector('.letters');
 
 function paintAlphabetButton() {
-    alphabets.forEach((alphabet) => {
+    for(let i = 0; i < alphabets.length; i++) {
         const element = document.createElement('li');
         element.setAttribute('class', 'alphabet');
-        element.innerText = alphabet;
+        element.innerText = alphabets[i];
         letters.appendChild(element);
-    })
+    }
 }
