@@ -27,7 +27,9 @@ function init() {
     paintWord();
 
     // 게임 재시작
-    againBtn.addEventListener('click', gameRestart);
+    againBtn.addEventListener('click', () => {
+        location.reload();
+    });
 }
 
 init();
