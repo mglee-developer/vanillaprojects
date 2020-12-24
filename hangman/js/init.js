@@ -4,7 +4,7 @@ const categories = [['apple', 'banana', 'strawberry'],
                     ['washington', 'jeju', 'paris']];
 
 const words = document.querySelector('.words');
-const againBtn = document.querySelector('.again_btn');
+const againBtn = document.querySelectorAll('.again_btn');
                     
 let randomCategory;
 let word;
@@ -27,9 +27,13 @@ function init() {
     paintWord();
 
     // 게임 재시작
-    againBtn.addEventListener('click', () => {
-        location.reload();
+    againBtn.forEach((btn) => {
+        btn.addEventListener('click', () => {
+            location.reload();
+        });
     });
+
+    // 힌트
 }
 
 init();
