@@ -9,6 +9,8 @@ function paintAlphabetButton() {
         const element = document.createElement('li');
         element.setAttribute('class', 'alphabet');
         element.innerText = alphabets[i];
+        // 알파벳이랑 단어 매칭
+        matchAlphabetsAndWord();
         letters.appendChild(element);
     }
 }

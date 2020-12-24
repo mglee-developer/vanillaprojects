@@ -18,6 +18,6 @@ function paintWord() {
         li.setAttribute('class', 'word');
         words.appendChild(li);
 
-        storedWord.push(word[i]);
+        storedWord.push(li);
     }
 }

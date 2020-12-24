@@ -5,6 +5,8 @@ const categories = [['apple', 'banana', 'strawberry'],
 let randomCategory;
 let word;
 let storedWord = [];
+let count = 0; // 맞은 단어 수
+let life = 10; // 생명
 
 function init() {
     randomCategory = categories[Math.floor(Math.random() * categories.length)];
