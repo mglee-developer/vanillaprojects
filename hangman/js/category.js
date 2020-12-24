@@ -10,8 +10,6 @@ function paintCategory() {
     }
 }
 
-const words = document.querySelector('.words');
-
 function paintWord() {
     for(let i = 0; i < word.length; i++) {
         const li = document.createElement('li');

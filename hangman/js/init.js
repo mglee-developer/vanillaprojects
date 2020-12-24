@@ -2,10 +2,15 @@
 const categories = [['apple', 'banana', 'strawberry'],
                     ['dog', 'monky', 'rabbit'],
                     ['washington', 'jeju', 'paris']];
+
+const words = document.querySelector('.words');
+const againBtn = document.querySelector('.again_btn');
+                    
 let randomCategory;
 let word;
-let storedWord = [];
-let count = 0; // 맞은 단어 수
+let storedWord = []; // 퀴즈 단어 쪼개서 저장
+let correctWordCount = 0; // 맞은 단어 수
+let wrongWordCount = 0; // 틀린 단어 수
 let life = 10; // 생명
 
 function init() {
@@ -20,6 +25,9 @@ function init() {
 
     // 단어 생성
     paintWord();
+
+    // 게임 재시작
+    againBtn.addEventListener('click', gameRestart);
 }
 
 init();

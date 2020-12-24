@@ -131,8 +131,12 @@ button {
     stroke-width: 2px;
 }
 
-#hangman * {
+.hangman-part {
     display: none;
+}
+
+.hangman-part.show {
+    display: block;
 }
 
 .btn-container {
