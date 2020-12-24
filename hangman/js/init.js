@@ -5,6 +5,7 @@ const categories = [['apple', 'banana', 'strawberry'],
 
 const words = document.querySelector('.words');
 const againBtn = document.querySelectorAll('.again_btn');
+const clueBtn = document.querySelector('.clue_btn');
                     
 let randomCategory;
 let word;
@@ -34,6 +35,7 @@ function init() {
     });
 
     // 힌트
+    clueBtn.addEventListener('click', getClue);
 }
 
 init();
