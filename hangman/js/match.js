@@ -1,5 +1,5 @@
-function matchAlphabetsAndWord() {
-    letters.addEventListener('click', (e) => {
+function matchAlphabetsAndWord(element) {
+    element.addEventListener('click', (e) => {
         const selectedAlphabet = e.target.innerHTML;
         if(selectedAlphabet === undefined) {
             return;
@@ -14,18 +14,25 @@ function matchAlphabetsAndWord() {
             }
         }
 
+        console.log(count);
+
         var index = (word.indexOf(selectedAlphabet));
-        console.log(index);
         if(index === -1) {
             life -= 1;
             // 결과 보여주기
-            gameResult();
+            if(life < 1) {
+                gameResult('Game Over😭');
+            }
 
             // 행맨 그리기
             canvasHangman();
         }else {
             // 결과 보여주기
-            gameResult();
+            for(let i = 0; i < storedWord.length; i++) {
+                if(count === storedWord.length) {
+                    gameResult('You Win🎉');
+                }
+            }
         }
     });
 }

@@ -10,7 +10,7 @@ function paintAlphabetButton() {
         element.setAttribute('class', 'alphabet');
         element.innerText = alphabets[i];
         // 알파벳이랑 단어 매칭
-        matchAlphabetsAndWord();
+        matchAlphabetsAndWord(element);
         letters.appendChild(element);
     }
 }
