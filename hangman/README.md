@@ -7,6 +7,10 @@
 # DEMO
 [DEMO](https://mglee-developer.github.io/vanillaprojects/hangman/)
 
+
+![Hangman](https://user-images.githubusercontent.com/70195171/103081109-994d3500-461a-11eb-9265-42f9dd9e21c3.gif)
+
+
 # Technologies
 - HTML
 - CSS
