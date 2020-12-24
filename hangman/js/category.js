@@ -3,6 +3,8 @@ const quiz = [['apple', 'banana', 'grape'],
                 ['dog', 'monky', 'rabbit'],
                 ['seoul', 'busan', 'jeju']];
 
+let storedWord = [];                
+
 const categoryName = document.querySelector('.category-name');
 const words = document.querySelector('.words');
 
@@ -22,8 +24,9 @@ function randomWord() {
         const element = document.createElement('li');
         element.setAttribute('class', 'word');
         words.appendChild(element);
+
+        storedWord.push(word[i]);
     }
-    
 }
 
 function init() {
